@@ -1,0 +1,43 @@
+.card-container{
+  width: 350px;
+}
+
+.card-white{
+  padding: 10px;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1)
+}
+
+.card-white-img{
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-white .list-inline{
+  text-align: right;
+  color: gray;
+  margin-top: 5px;
+}
+
+.card-white .list-inline li{
+  padding: 0px 5px;
+}
+
+.card-user{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.card-user a{
+  color: rgb(27, 24, 43);
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
